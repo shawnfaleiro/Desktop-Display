@@ -1,0 +1,35 @@
+#date{
+    font-weight: 300;
+    font-size: 2em;
+}
+#time{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-weight: 500;
+    font-size: 5em;
+}
+#time sup{
+    padding-left: 10px;
+    font-weight: 500;
+    font-size: 0.6em;   
+    
+}
+
+@media only screen and (max-width: 1023px) {
+
+    #date{
+    font-size: 1.3em;
+}
+    
+    #time{
+
+    font-size: 4em;
+}
+#time sup{
+    padding-left: 10px;
+    font-weight: 500;
+    font-size: 0.5em;   
+    
+}
+    
+}

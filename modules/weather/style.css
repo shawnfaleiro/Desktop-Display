@@ -1,0 +1,21 @@
+#description{
+    text-transform: capitalize;
+}
+#description{
+    font-size: 1.3em;
+}
+#suntime
+{
+    font-size: 2.5em;
+    padding-bottom: 15px;
+}
+#temp{
+    font-size: 3em;
+    color: white;
+}
+#suntime{
+    padding-bottom: 0;
+}
+#temp{
+    margin: 0 0;
+}

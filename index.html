@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Display Hub</title>
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <meta name="description" content="Display Hub">
+    <meta name="msapplication-TileColor" content="#000000">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <meta name="theme-color" content="#000000">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/css/uikit.min.css" />
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+</head>
+    <body>
+
+        <section class="left">
+            <div class="divbutton" >
+            
+            <div id="show">
+
+
+            <div id="mydiv">
+            
+            <div>
+            <div id="date"></div>
+            <div id="time"></div>
+            </div>
+            </div>
+                </div>
+
+
+</div>
+            
+            
+            <div id="showHideEvents" class="familyEvents">
+            
+            <div id="mydiv2">
+            
+            <ul id="events-upcoming" class="events"></ul>
+            <ul id="events-past"> </ul>
+            </div>
+                
+            </div>
+            <br>
+            <div class="showHideEvents" >
+            
+            </div>
+        </section>
+
+        
+        <section class="right">
+            <div id="showHideBattery">
+            <div id="mydiv3">
+                
+           
+            <p id="status"></p>
+             </div>
+            </div>
+
+     
+
+            <div id="showHideWeather">
+            <div id="mydiv4">
+                
+            <div id="weather">
+            <div id="suntime"></div>
+            <div id="description"></div>
+            <h1 id="temp"></h1>
+            <div id="location"></div>
+            </div>
+            </div>
+            </div>
+            
+            
+            
+            <div id="showHideShoppingList">
+            <div id="mydiv5">
+           
+            
+             <ul class="shopping">
+    <li>
+     
+        <h2>Shopping List</h2>
+        <p id="list1">>Text Content #1</p>
+
+    </li>
+                </ul>
+
+            
+            
+                </div>
+            </div>
+        </section>
+                
+            <div id="showHidePicture">
+             <div id="mydiv6">
+        
+        <section class="middle">
+            <h2>Picture of the day</h2>
+            <img id="image" src="" alt="Picture of the day">
+        
+        </section>
+            </div>
+            </div>
+            
+            
+            <section id="hiddenDiv">
+            <table >
+  <tr>
+    <th>Module</th>
+    <th>Status</th> 
+
+  </tr>
+  <tr>
+    <td>Time</td>
+      <td><button onclick="myFunction()"><strong id="timestatus">Hide</strong> </button>
+
+  </tr>
+  <tr>
+    <td>Events</td>
+    <td><button  onclick="showHideEvents()"><strong id="eventsStatus">Hide</strong></button></td> 
+
+  </tr>
+                
+                                  <tr>
+    <td>Picture</td>
+    <td><button onclick="showHidePicture()"><strong id="picturestatus">Hide</strong></button></td> 
+
+  </tr>
+                
+                                                  <tr>
+    <td>Battery</td>
+    <td><button onclick="showHideBattery()"><strong id="batteryStatus">Hide</strong></button></td> 
+
+  </tr>
+                                                  <tr>
+    <td>Weather</td>
+    <td><button onclick="showHideWeather()"><strong id="weatherStatus">Hide</strong></button></td> 
+
+  </tr>
+                                                  <tr>
+    <td>Shopping list</td>
+    <td><button onclick="showHideShoppingList()"><strong id="ShoppingStatus">Hide</strong></button></td> 
+
+  </tr>
+                                                  <tr>
+    <td>News</td>
+    <td><button onclick="showHideNews()"><strong id="newsStatus">Hide</strong></button></td> 
+
+  </tr>
+                                
+
+</table>
+
+                
+            
+                        
+</section>
+        
+
+        
+        <section class="bottom">
+            <div id="showHideNews">
+            <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-4" uk-slideshow="autoplay: true min-height: 50; max-height: 150; animation: fade; velocity:0; autoplay-interval:20000; ">
+                <ul id="newsapi" class="uk-slideshow-items" ></ul>
+            </div>
+            </div>
+            
+        </section>
+                
+                
+
+        
+        <footer id="mydiv3"> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/js/uikit.min.js"></script>
+        <script src="modules/calendar/format-google-calendar.js"></script>
+        <script src="modules/calendar/calendar.js"></script>
+        
+        <script src="modules/weather/weather.js"></script>
+        <script src="modules/time/time.js"></script>
+        <script src="modules/news/news.js"></script>
+        <script src="modules/shopping/shopping.js"></script>
+        <script src="modules/pictureoftheday/pictureoftheday.js"></script>
+                <script src="modules/battery/battery2.js" defer ></script>
+                <link href="css/style.css" rel="stylesheet">
+        <script src="js/main.js"></script>
+            </footer>
+    
+
+    </body>
+</html>

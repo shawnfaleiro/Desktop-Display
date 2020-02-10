@@ -1,0 +1,59 @@
+.shopping {
+    text-align: right;
+    margin-left:auto; margin-right: 0;
+    width: 300px;
+
+}
+.shopping  h2, shopping p{
+    font-size:100%;
+    font-weight:normal;
+    color: black;
+}
+.shopping,.shopping li{
+    list-style:none;
+}
+ul{
+  overflow:hidden;
+}
+.shopping li {
+  text-decoration:none;
+  color:#000;
+  background:#ffc;
+  display:block;
+  padding:1em;
+}
+.shopping li{
+  margin:1em;
+  float:left;
+}
+.shopping li h2{
+  font-size: 1.4em;
+  font-weight:bold;
+  padding-bottom:10px;
+    text-decoration: underline;
+}
+.shopping li p{
+    text-align: left;
+  font-family:"Reenie Beanie",arial,sans-serif;
+  font-size:180%;
+}
+.shopping li {
+  -webkit-transform: rotate(-6deg);
+  -o-transform: rotate(-6deg);
+  -moz-transform:rotate(-6deg);
+}
+
+
+.shopping ol{text-align:center;}
+.shopping ol li{display:inline;}
+.shopping ol li {color:#fff;}
+.shopping ol li a{color:#fff;}
+
+
+
+@media only screen and (max-width: 600px) {
+    
+    .shopping{
+margin-left:auto; margin-right:auto;
+    }
+}
